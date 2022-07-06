@@ -1,6 +1,6 @@
 torch
 torchvision
-torchtext
+torchtext==0.9.0
 numpy
 pandas
 matplotlib
