@@ -175,7 +175,7 @@ def main():
         print('--- EPOCH', t+1 , '---')
         train(
             model=model,
-            dataloader=test_dataloader,
+            dataloader=train_dataloader,
             optimizer=optimizer,
             loss_function=loss_function,
         )
